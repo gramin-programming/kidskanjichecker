@@ -15,6 +15,16 @@
 
 ダウンロード後に kids-kanji-checker 等に名前を変えても問題ありません。
 
+この後、Linux・Mac 環境では権限を付与します。
+```
+$ chmod 0755 kids-kanji-checker_darwin_amd64
+```
+どこからでも実行したい場合は /usr/local/bin あたりに移動して下さい。
+
+```
+$ sudo mv -v kids-kanji-checker_darwin_amd64 /usr/local/bin/.
+```
+
 # 使い方
 ```
 Usage: ./kids-kanji-checker_linux_amd64 [OPTIONS] argument ...
@@ -57,5 +67,5 @@ $ cat sample/sample.docx | ./kids-kanji-checker -stdin -max-year 7
 
 ## 着色がサポートされていない環境で LibreOffice Impress 文書に対して小学 3年生（-max-yearを指定しない場合はこうなります）までに習わない漢字を表示する
 ```
-$ ./kids-kanji-checker -input-file sample/sample.docx -no-color
+$ ./kids-kanji-checker -input-file sample/sample.odp -no-color
 ```
