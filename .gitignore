@@ -1,0 +1,10 @@
+bin
+.idea/workspace.xml
+vendor
+.idea/libraries/GOPATH__*_.xml
+.idea/*.iml
+.idea/modules.xml
+coverage.out
+tags
+kids-kanji-checker_*
+sample/sample.*

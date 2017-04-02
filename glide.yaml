@@ -1,0 +1,4 @@
+package: github.com/gramin-programming/kidskanjichecker
+import:
+- package: github.com/Sirupsen/logrus
+- package: github.com/fatih/color
