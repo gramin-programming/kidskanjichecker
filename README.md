@@ -1,6 +1,8 @@
 # kids-kanji-checker
 日本の小学生・中学生が使う常用漢字以外の漢字が使われていないかをチェックするツールです。
 
+[イメージ](https://raw.githubusercontent.com/gramin-programming/kidskanjichecker/master/kids-kanji-checker-image.png)
+
 # インストール
 
 [リリース](https://github.com/gramin-programming/kidskanjichecker/releases) からダウンロードして実行するだけです。
